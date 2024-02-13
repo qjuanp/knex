@@ -146,7 +146,7 @@ describe('Inserts', function () {
                   return v.toString() === '[object ReturningHelper:id]';
                 },
               ],
-              [{ id: 1 }]
+              [{ id: '1' }]
             );
             tester(
               'mssql',
@@ -300,7 +300,7 @@ describe('Inserts', function () {
                   return v.toString() === '[object ReturningHelper:id]';
                 },
               ],
-              [{ id: 1 }, { id: 2 }]
+              [{ id: '1' }, { id: '2' }]
             );
             tester(
               'mssql',
@@ -374,7 +374,7 @@ describe('Inserts', function () {
                   return v.toString() === '[object ReturningHelper:id]';
                 },
               ],
-              ['1', '2', '3']
+              [{ id: '1' }, { id: '2' }, { id: '3' }]
             );
           })
           .asCallback(function (err) {
@@ -518,7 +518,7 @@ describe('Inserts', function () {
                   return v.toString() === '[object ReturningHelper:id]';
                 },
               ],
-              [{ id: 1 }, { id: 2 }]
+              [{ id: '1' }, { id: '2' }]
             );
             tester(
               'mssql',
@@ -744,7 +744,7 @@ describe('Inserts', function () {
                   return v.toString() === '[object ReturningHelper:id]';
                 },
               ],
-              [[{ id: 1 }]]
+              [[{ id: '1' }]]
             );
             tester(
               'mssql',
@@ -903,7 +903,7 @@ describe('Inserts', function () {
                   return v.toString() === '[object ReturningHelper:id]';
                 },
               ],
-              [{ id: 1 }]
+              [{ id: '1' }]
             );
             tester(
               'mssql',
@@ -970,7 +970,7 @@ describe('Inserts', function () {
                   return v.toString() === '[object ReturningHelper:id]';
                 },
               ],
-              [{ id: 1 }]
+              [{ id: '1' }]
             );
             tester(
               'mssql',
