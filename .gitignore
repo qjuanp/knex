@@ -32,3 +32,5 @@ test/coverage/*
 /coverage/
 
 test/integration/migrate/migration/
+
+mochawesome-report
